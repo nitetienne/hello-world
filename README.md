@@ -1,7 +1,7 @@
 # hello-world
 my work
 
--create another repository:lapply() and sapply()
+#create another repository:lapply() and sapply()
 #lapply() always returns a list.Here below there is an example:
 x <- list(a = 1:6, b = rnorm(12), c = rnorm(20, 1), d = rnorm(100, 5))
 lapply(x, mean)
@@ -25,7 +25,7 @@ sapply(x, mean)
         a         b         c         d 
 3.5000000 0.0454311 1.1199622 5.1071292 
 
-+vapply() and tapply()
+#vapply() and tapply()
 #tapply() is used to apply a function over subsets of a vector:
 #example:
 y <- c(rnorm(10), runif(10), rnorm(10, 1))
